@@ -3,7 +3,7 @@
 echo "> downloading & installing m3u files  Please Wait ..."
 sleep 3
 
-wget --show-progress -qO /etc/xklass/playlists.txt "https://raw.githubusercontent.com/Ham-ahmed/205/refs/heads/main/playlists.txt"
+wget --show-progress -qO /etc/enigma2/xklass/playlists.txt "https://raw.githubusercontent.com/Ham-ahmed/205/refs/heads/main/playlists.txt"
 download=$?
 echo ''
 if [ $download -eq 0 ]; then
